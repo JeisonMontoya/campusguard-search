@@ -540,6 +540,10 @@ indicando correctamente que no hay solución viable.
 # MAIN: EJECUCIÓN DIRECTA
 # =============================================================================
 
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BENCHMARK_DIR = os.path.join(PROJECT_ROOT, "benchmark")
+os.makedirs(BENCHMARK_DIR, exist_ok=True)
+
 if __name__ == "__main__":
     print("#"*70)
     print("# CAMPUSGUARD - EJECUCIÓN DE BÚSQUEDA Y BENCHMARKING")
@@ -558,25 +562,25 @@ if __name__ == "__main__":
     imprimir_tabla_consola(resultados)
     
     # 4. Guardar JSON
-    guardar_resultados_json(resultados)
+    guardar_resultados_json(resultados, os.path.join(BENCHMARK_DIR, "resultados.json"))
     
     # 5. Generar Markdown para documento
     tabla_md = generar_tabla_markdown(resultados)
-    with open("benchmark/tabla_benchmark.md", "w", encoding="utf-8") as f:
+    with open(os.path.join(BENCHMARK_DIR, "tabla_benchmark.md"), "w", encoding="utf-8") as f:
         f.write(tabla_md)
-    print("\n[OK] Tabla Markdown guardada en: benchmark/tabla_benchmark.md")
+    print(f"\n[OK] Tabla Markdown guardada en: {os.path.join(BENCHMARK_DIR, 'tabla_benchmark.md')}")
     
     # 6. Generar análisis de complejidad
     analisis = analisis_complejidad_teorico()
-    with open("benchmark/analisis_complejidad.md", "w", encoding="utf-8") as f:
+    with open(os.path.join(BENCHMARK_DIR, "analisis_complejidad.md"), "w", encoding="utf-8") as f:
         f.write(analisis)
-    print("[OK] Analisis Big O guardado en: benchmark/analisis_complejidad.md")
+    print(f"[OK] Analisis Big O guardado en: {os.path.join(BENCHMARK_DIR, 'analisis_complejidad.md')}")
     
     # 7. Generar evaluación heurística
     evaluacion = evaluacion_heuristica()
-    with open("benchmark/evaluacion_heuristica.md", "w", encoding="utf-8") as f:
+    with open(os.path.join(BENCHMARK_DIR, "evaluacion_heuristica.md"), "w", encoding="utf-8") as f:
         f.write(evaluacion)
-    print("[OK] Evaluacion heuristica guardada en: benchmark/evaluacion_heuristica.md")
+    print(f"[OK] Evaluacion heuristica guardada en: {os.path.join(BENCHMARK_DIR, 'evaluacion_heuristica.md')}")
     
     # 8. Demo detallada de un caso
     print("\n" + "#"*70)
