@@ -1,0 +1,410 @@
+{
+  "metadata": {
+    "timestamp": "2026-11-09T11:56:12.583000",
+    "total_estudiantes": 8,
+    "algoritmos": [
+      "BFS",
+      "DFS",
+      "A*"
+    ],
+    "parametros": {
+      "umbral_exito": 25.0,
+      "ventana_maxima_dias": 2,
+      "max_intervenciones": 4
+    }
+  },
+  "resultados": [
+    {
+      "estudiante_id": "EST-2024-003",
+      "riesgo_inicial": 33.39,
+      "nivel_riesgo": "medio",
+      "metricas": {
+        "BFS": {
+          "algoritmo": "BFS",
+          "estudiante_id": "EST-2024-003",
+          "riesgo_inicial": 33.39,
+          "exito": true,
+          "nodos_expandidos": 1,
+          "nodos_generados": 4,
+          "tiempo_ejecucion_ms": 0.138,
+          "costo_solucion": 3.0,
+          "profundidad_solucion": 1,
+          "longitud_camino": 1,
+          "heuristica_inicial": 0.56,
+          "timestamp": "2026-11-09T11:56:12.576296"
+        },
+        "DFS": {
+          "algoritmo": "DFS",
+          "estudiante_id": "EST-2024-003",
+          "riesgo_inicial": 33.39,
+          "exito": true,
+          "nodos_expandidos": 1,
+          "nodos_generados": 4,
+          "tiempo_ejecucion_ms": 0.094,
+          "costo_solucion": 5.0,
+          "profundidad_solucion": 1,
+          "longitud_camino": 1,
+          "heuristica_inicial": 0.56,
+          "timestamp": "2026-11-09T11:56:12.576448"
+        },
+        "A*": {
+          "algoritmo": "A*",
+          "estudiante_id": "EST-2024-003",
+          "riesgo_inicial": 33.39,
+          "exito": true,
+          "nodos_expandidos": 2,
+          "nodos_generados": 7,
+          "tiempo_ejecucion_ms": 0.199,
+          "costo_solucion": 1.0,
+          "profundidad_solucion": 1,
+          "longitud_camino": 1,
+          "heuristica_inicial": 0.56,
+          "timestamp": "2026-11-09T11:56:12.576677"
+        }
+      }
+    },
+    {
+      "estudiante_id": "EST-2024-001",
+      "riesgo_inicial": 46.39,
+      "nivel_riesgo": "medio",
+      "metricas": {
+        "BFS": {
+          "algoritmo": "BFS",
+          "estudiante_id": "EST-2024-001",
+          "riesgo_inicial": 46.39,
+          "exito": true,
+          "nodos_expandidos": 1,
+          "nodos_generados": 4,
+          "tiempo_ejecucion_ms": 0.072,
+          "costo_solucion": 3.0,
+          "profundidad_solucion": 1,
+          "longitud_camino": 1,
+          "heuristica_inicial": 1.43,
+          "timestamp": "2026-11-09T11:56:12.576787"
+        },
+        "DFS": {
+          "algoritmo": "DFS",
+          "estudiante_id": "EST-2024-001",
+          "riesgo_inicial": 46.39,
+          "exito": true,
+          "nodos_expandidos": 1,
+          "nodos_generados": 4,
+          "tiempo_ejecucion_ms": 0.076,
+          "costo_solucion": 5.0,
+          "profundidad_solucion": 1,
+          "longitud_camino": 1,
+          "heuristica_inicial": 1.43,
+          "timestamp": "2026-11-09T11:56:12.576889"
+        },
+        "A*": {
+          "algoritmo": "A*",
+          "estudiante_id": "EST-2024-001",
+          "riesgo_inicial": 46.39,
+          "exito": true,
+          "nodos_expandidos": 5,
+          "nodos_generados": 14,
+          "tiempo_ejecucion_ms": 0.398,
+          "costo_solucion": 3.0,
+          "profundidad_solucion": 1,
+          "longitud_camino": 1,
+          "heuristica_inicial": 1.43,
+          "timestamp": "2026-11-09T11:56:12.577313"
+        }
+      }
+    },
+    {
+      "estudiante_id": "EST-2024-002",
+      "riesgo_inicial": 74.12,
+      "nivel_riesgo": "alto",
+      "metricas": {
+        "BFS": {
+          "algoritmo": "BFS",
+          "estudiante_id": "EST-2024-002",
+          "riesgo_inicial": 74.12,
+          "exito": true,
+          "nodos_expandidos": 3,
+          "nodos_generados": 10,
+          "tiempo_ejecucion_ms": 0.205,
+          "costo_solucion": 8.0,
+          "profundidad_solucion": 2,
+          "longitud_camino": 2,
+          "heuristica_inicial": 3.27,
+          "timestamp": "2026-11-09T11:56:12.577553"
+        },
+        "DFS": {
+          "algoritmo": "DFS",
+          "estudiante_id": "EST-2024-002",
+          "riesgo_inicial": 74.12,
+          "exito": true,
+          "nodos_expandidos": 2,
+          "nodos_generados": 7,
+          "tiempo_ejecucion_ms": 0.133,
+          "costo_solucion": 6.0,
+          "profundidad_solucion": 2,
+          "longitud_camino": 2,
+          "heuristica_inicial": 3.27,
+          "timestamp": "2026-11-09T11:56:12.577712"
+        },
+        "A*": {
+          "algoritmo": "A*",
+          "estudiante_id": "EST-2024-002",
+          "riesgo_inicial": 74.12,
+          "exito": true,
+          "nodos_expandidos": 17,
+          "nodos_generados": 34,
+          "tiempo_ejecucion_ms": 1.189,
+          "costo_solucion": 6.0,
+          "profundidad_solucion": 2,
+          "longitud_camino": 2,
+          "heuristica_inicial": 3.27,
+          "timestamp": "2026-11-09T11:56:12.578926"
+        }
+      }
+    },
+    {
+      "estudiante_id": "EST-2024-004",
+      "riesgo_inicial": 55.85,
+      "nivel_riesgo": "alto",
+      "metricas": {
+        "BFS": {
+          "algoritmo": "BFS",
+          "estudiante_id": "EST-2024-004",
+          "riesgo_inicial": 55.85,
+          "exito": true,
+          "nodos_expandidos": 1,
+          "nodos_generados": 4,
+          "tiempo_ejecucion_ms": 0.082,
+          "costo_solucion": 5.0,
+          "profundidad_solucion": 1,
+          "longitud_camino": 1,
+          "heuristica_inicial": 2.06,
+          "timestamp": "2026-11-09T11:56:12.579044"
+        },
+        "DFS": {
+          "algoritmo": "DFS",
+          "estudiante_id": "EST-2024-004",
+          "riesgo_inicial": 55.85,
+          "exito": true,
+          "nodos_expandidos": 1,
+          "nodos_generados": 4,
+          "tiempo_ejecucion_ms": 0.091,
+          "costo_solucion": 5.0,
+          "profundidad_solucion": 1,
+          "longitud_camino": 1,
+          "heuristica_inicial": 2.06,
+          "timestamp": "2026-11-09T11:56:12.579159"
+        },
+        "A*": {
+          "algoritmo": "A*",
+          "estudiante_id": "EST-2024-004",
+          "riesgo_inicial": 55.85,
+          "exito": true,
+          "nodos_expandidos": 8,
+          "nodos_generados": 21,
+          "tiempo_ejecucion_ms": 0.626,
+          "costo_solucion": 4.0,
+          "profundidad_solucion": 2,
+          "longitud_camino": 2,
+          "heuristica_inicial": 2.06,
+          "timestamp": "2026-11-09T11:56:12.579813"
+        }
+      }
+    },
+    {
+      "estudiante_id": "EST-2024-005",
+      "riesgo_inicial": 43.1,
+      "nivel_riesgo": "medio",
+      "metricas": {
+        "BFS": {
+          "algoritmo": "BFS",
+          "estudiante_id": "EST-2024-005",
+          "riesgo_inicial": 43.1,
+          "exito": true,
+          "nodos_expandidos": 1,
+          "nodos_generados": 4,
+          "tiempo_ejecucion_ms": 0.072,
+          "costo_solucion": 3.0,
+          "profundidad_solucion": 1,
+          "longitud_camino": 1,
+          "heuristica_inicial": 1.21,
+          "timestamp": "2026-11-09T11:56:12.579932"
+        },
+        "DFS": {
+          "algoritmo": "DFS",
+          "estudiante_id": "EST-2024-005",
+          "riesgo_inicial": 43.1,
+          "exito": true,
+          "nodos_expandidos": 1,
+          "nodos_generados": 4,
+          "tiempo_ejecucion_ms": 0.073,
+          "costo_solucion": 5.0,
+          "profundidad_solucion": 1,
+          "longitud_camino": 1,
+          "heuristica_inicial": 1.21,
+          "timestamp": "2026-11-09T11:56:12.580028"
+        },
+        "A*": {
+          "algoritmo": "A*",
+          "estudiante_id": "EST-2024-005",
+          "riesgo_inicial": 43.1,
+          "exito": true,
+          "nodos_expandidos": 3,
+          "nodos_generados": 10,
+          "tiempo_ejecucion_ms": 0.281,
+          "costo_solucion": 1.5,
+          "profundidad_solucion": 2,
+          "longitud_camino": 2,
+          "heuristica_inicial": 1.21,
+          "timestamp": "2026-11-09T11:56:12.580332"
+        }
+      }
+    },
+    {
+      "estudiante_id": "EST-2024-006",
+      "riesgo_inicial": 67.44,
+      "nivel_riesgo": "alto",
+      "metricas": {
+        "BFS": {
+          "algoritmo": "BFS",
+          "estudiante_id": "EST-2024-006",
+          "riesgo_inicial": 67.44,
+          "exito": true,
+          "nodos_expandidos": 3,
+          "nodos_generados": 10,
+          "tiempo_ejecucion_ms": 0.2,
+          "costo_solucion": 8.0,
+          "profundidad_solucion": 2,
+          "longitud_camino": 2,
+          "heuristica_inicial": 2.83,
+          "timestamp": "2026-11-09T11:56:12.580570"
+        },
+        "DFS": {
+          "algoritmo": "DFS",
+          "estudiante_id": "EST-2024-006",
+          "riesgo_inicial": 67.44,
+          "exito": true,
+          "nodos_expandidos": 2,
+          "nodos_generados": 7,
+          "tiempo_ejecucion_ms": 0.132,
+          "costo_solucion": 6.0,
+          "profundidad_solucion": 2,
+          "longitud_camino": 2,
+          "heuristica_inicial": 2.83,
+          "timestamp": "2026-11-09T11:56:12.580726"
+        },
+        "A*": {
+          "algoritmo": "A*",
+          "estudiante_id": "EST-2024-006",
+          "riesgo_inicial": 67.44,
+          "exito": true,
+          "nodos_expandidos": 10,
+          "nodos_generados": 25,
+          "tiempo_ejecucion_ms": 0.826,
+          "costo_solucion": 4.5,
+          "profundidad_solucion": 3,
+          "longitud_camino": 3,
+          "heuristica_inicial": 2.83,
+          "timestamp": "2026-11-09T11:56:12.581580"
+        }
+      }
+    },
+    {
+      "estudiante_id": "EST-2024-007",
+      "riesgo_inicial": 27.38,
+      "nivel_riesgo": "medio",
+      "metricas": {
+        "BFS": {
+          "algoritmo": "BFS",
+          "estudiante_id": "EST-2024-007",
+          "riesgo_inicial": 27.38,
+          "exito": true,
+          "nodos_expandidos": 1,
+          "nodos_generados": 4,
+          "tiempo_ejecucion_ms": 0.067,
+          "costo_solucion": 0.5,
+          "profundidad_solucion": 1,
+          "longitud_camino": 1,
+          "heuristica_inicial": 0.16,
+          "timestamp": "2026-11-09T11:56:12.581691"
+        },
+        "DFS": {
+          "algoritmo": "DFS",
+          "estudiante_id": "EST-2024-007",
+          "riesgo_inicial": 27.38,
+          "exito": true,
+          "nodos_expandidos": 1,
+          "nodos_generados": 4,
+          "tiempo_ejecucion_ms": 0.073,
+          "costo_solucion": 5.0,
+          "profundidad_solucion": 1,
+          "longitud_camino": 1,
+          "heuristica_inicial": 0.16,
+          "timestamp": "2026-11-09T11:56:12.581794"
+        },
+        "A*": {
+          "algoritmo": "A*",
+          "estudiante_id": "EST-2024-007",
+          "riesgo_inicial": 27.38,
+          "exito": true,
+          "nodos_expandidos": 1,
+          "nodos_generados": 4,
+          "tiempo_ejecucion_ms": 0.092,
+          "costo_solucion": 0.5,
+          "profundidad_solucion": 1,
+          "longitud_camino": 1,
+          "heuristica_inicial": 0.16,
+          "timestamp": "2026-11-09T11:56:12.581909"
+        }
+      }
+    },
+    {
+      "estudiante_id": "EST-2024-008",
+      "riesgo_inicial": 49.62,
+      "nivel_riesgo": "medio",
+      "metricas": {
+        "BFS": {
+          "algoritmo": "BFS",
+          "estudiante_id": "EST-2024-008",
+          "riesgo_inicial": 49.62,
+          "exito": true,
+          "nodos_expandidos": 1,
+          "nodos_generados": 4,
+          "tiempo_ejecucion_ms": 0.068,
+          "costo_solucion": 3.0,
+          "profundidad_solucion": 1,
+          "longitud_camino": 1,
+          "heuristica_inicial": 1.64,
+          "timestamp": "2026-11-09T11:56:12.582007"
+        },
+        "DFS": {
+          "algoritmo": "DFS",
+          "estudiante_id": "EST-2024-008",
+          "riesgo_inicial": 49.62,
+          "exito": true,
+          "nodos_expandidos": 1,
+          "nodos_generados": 4,
+          "tiempo_ejecucion_ms": 0.072,
+          "costo_solucion": 5.0,
+          "profundidad_solucion": 1,
+          "longitud_camino": 1,
+          "heuristica_inicial": 1.64,
+          "timestamp": "2026-11-09T11:56:12.582102"
+        },
+        "A*": {
+          "algoritmo": "A*",
+          "estudiante_id": "EST-2024-008",
+          "riesgo_inicial": 49.62,
+          "exito": true,
+          "nodos_expandidos": 5,
+          "nodos_generados": 14,
+          "tiempo_ejecucion_ms": 0.399,
+          "costo_solucion": 3.0,
+          "profundidad_solucion": 1,
+          "longitud_camino": 1,
+          "heuristica_inicial": 1.64,
+          "timestamp": "2026-11-09T11:56:12.582526"
+        }
+      }
+    }
+  ]
+}
